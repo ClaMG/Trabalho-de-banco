@@ -75,3 +75,8 @@ menu div:hover{
 a:hover{
     color: rgb(46, 0, 0);
 }
+
+button{
+    border: none;
+    background-color: transparent;
+}

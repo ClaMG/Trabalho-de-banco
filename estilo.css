@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeça{
+    background-image: linear-gradient(to left, rgb(109, 9, 9), black);
+    width: 100%;
+    padding-bottom: 1px;
+}
+
+#home{
+    padding-left: 5px;
+}
+
+#lupa{
+    width: 12px;
+    height: 12px;
+}
+
+#canto{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#car{
+    padding-right: 20px;
+}
+
+#car, #cont{
+    width: 25px;
+    height: 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+menu{
+    display: flex;
+    flex-direction: row;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+menu div{
+    padding-right: 6px;
+}

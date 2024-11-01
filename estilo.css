@@ -4,7 +4,7 @@
 }
 
 #cabeça{
-    background-image: linear-gradient(to left, rgb(109, 9, 9), black);
+    background-image: linear-gradient(to left, rgb(80, 6, 6), black);
     width: 100%;
     padding-bottom: 1px;
 }
@@ -41,10 +41,17 @@ header{
     padding-top: 5px;
 }
 
-menu{
-    display: flex;
-    flex-direction: row;
+input{
+    border-radius: 10px;
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color:transparent;
+}
 
+menu{
+    display: flex ;
+    flex-direction: row;
 }
 
 a{
@@ -53,5 +60,8 @@ a{
 }
 
 menu div{
-    padding-right: 6px;
+    padding: 2px;
+    margin-right: 3px;
+    background-color: rgba(149, 2, 2, 0.635); 
+    border-radius: 2px;
 }

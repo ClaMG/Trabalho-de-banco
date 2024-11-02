@@ -208,3 +208,30 @@ menu a:hover{
     width: 55px;
     height: 55px;
 }
+/*Suporte*/
+
+#suporte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, rgb(80, 6, 6), black);
+}
+
+.bloco_s{
+    display: flex;
+    padding: 20px;
+}
+
+.linha{
+    height: 300px;
+    border-left: 2px solid;
+}
+
+#bloco2{
+    margin-right: 400px;
+}
+
+.separar{
+    margin-left: 14px;
+}

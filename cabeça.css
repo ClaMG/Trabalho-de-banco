@@ -166,6 +166,63 @@ menu a:hover{
     height: 12px;
 }
 
+/*Avaliações*/
+
+#avaliacao_clientes{
+    height: 400px;
+}
+
+#clientes{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#corpo_ava{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.bloco_ac{
+    display: flex;
+    background-color: gainsboro;
+    width: 320px;
+    height: 300px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.parte_cima{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 9px;
+
+}
+
+.perfil_nome_p{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avaliacao_c{
+    padding-left: 10px;
+    margin-top: -9px;
+}
+
+.estrelas_c{
+    width: 140px;
+    height: 90px;
+    margin-top: -25px;
+}
+
+.perfil_c{
+    width: 80px;
+    height: 80px;
+}
+
 /*Rodapé*/
 /*Email*/
 

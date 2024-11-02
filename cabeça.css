@@ -134,7 +134,7 @@ menu a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px;
+    
 }
 
 .escrito_mv{
@@ -144,6 +144,7 @@ menu a:hover{
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 #sepa_mv{
@@ -164,6 +165,19 @@ menu a:hover{
     margin-left: 3px;
     width: 12px;
     height: 12px;
+}
+
+.img_mv{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.but_comp, .but_comp a{
+    background-color: transparent;
+    color: transparent;
+    text-decoration: none;
+    border: none;
 }
 
 /*Avaliações*/

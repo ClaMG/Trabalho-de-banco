@@ -107,3 +107,104 @@ menu a:hover{
 #titulo_serve, #link_serve{
     padding-left: 15px;
 }
+/*Destaques*/
+
+/*Mais vendidos*/
+
+#m_vendidos{
+    background-image: linear-gradient(to left, rgb(135, 10, 10), black);
+    height: 510px;
+}
+
+#titulo_mv{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+.produtos_mv{
+    border-radius: 20px;
+    background-color: rgb(251, 0, 0);
+    margin: 7px;
+    width: 500px;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.escrito_mv{
+    height: 90px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#sepa_mv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ver_produtos{
+    display: flex;
+    justify-content: end;
+    margin: 2px 20px 10px 0px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+#seta{
+    margin-left: 3px;
+    width: 12px;
+    height: 12px;
+}
+
+/*Rodapé*/
+/*Email*/
+
+#email{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(207, 0, 0);
+    color: white;
+    height: 65px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nome_emi{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#emial_n input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid;
+    border-color: white;
+    background-color: rgb(231, 50, 50);
+    color: white;
+}
+
+#emial_n button{
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 0px rgb(89, 1, 1);
+    border: none;
+}
+
+#icone_email{
+    width: 55px;
+    height: 55px;
+}

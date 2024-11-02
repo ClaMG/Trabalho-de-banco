@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="cabeça.css">
 </head>
 <body>
+    <!--Cabeçario-->
     <div id="cabeça">
         <header>
+            <!--Logo-->
             <div id="home"><a href="index.html"><img src="#" alt="home"></a></div>
-    
+            <!--Barra de pesquisa-->
             <div id="barra_p">
-                <input type="search" />
+                <input type="search" id="in_cab" />
                 <button id="pesquisa_b" type="submit"><img id="lupa" src="favicon/lupaa.png" alt="lupa"></button>
             </div>
+            <!--Carrinho e conta-->
                 <div id="canto">
                     <div id="conta"><a href="pgteste/conta.html"><img id="cont" src="favicon/kindpng_746008.png" alt="login"></a></div>
     
                 <div id="carrinho"><a href="pgteste/carrinho.html"><img id="car" src="favicon/pngfind.com-compras-png-6808978.png" alt="carrinho"></a></div>
             </div>
-    
         </header>
+        <!--Menu-->
         <menu>
             <div><a href="#">Home</a></div>
             <div><a href="#">Produtos</a></div>
             <div><a href="#">Suporte</a></div>
         </menu>
 </div>
-    
+    <!--Corpo 1-->
 <div id="corpo">
+    <!--Butão d e e-->
     <button id="direita">d</button>
     <button id="esquerda">e</button>
+    <!--Escrito d-->
     <h1 id="nome_p">Nome do produto</h1>
     <p id="Sobre_p1">Sobre o produto</p>
     <p id="Sobre_p2">Sobre o produto</p>
     <p id="Sobre_p3">Sobre o produto</p>
+    <!--Meio-->
     <img src="#" alt="produto_img">
+    <!--Escrito e-->
     <h2 id="valor">Valor</h2>
     <p id="sobre_v">Sobre o valor</p>
     <button>Aproveite</button>
 </div>
-
+<!--Para que serve-->
 <div id="serve">
     <h1 id="titulo_serve">Para que serve os equipamentos?</h1>
     <a id="link_serve" href="pgteste/saibamais.html">Saiba mais</a>
 </div>
-
+<!--Destaques-->
 <div id="destaques">
     <h1 id="titulo_des">Produtos em Destaque</h1>
     <div class="produtos_des">
@@ -66,6 +73,7 @@
     </div>
 </div>
 <hr>
+<!--Mais vendidos-->
 <div id="m_vendidos">
     <h1 id="titulo_mv">Mais Vendidos</h1>
     <div class="produtos_mv">
@@ -101,30 +109,50 @@
     <a href="#" id="ver_produtos">Ver todos os produtos</a>
 </div>
 <hr>
+<!--Avaliação-->
 <div id="avaliacao_clientes">
+    <h1 id="clientes">Nosso clientes falam:</h1>
     <div class="bloco_ac">
-        <h1 id="clientes">Nosso clientes falam:</h1>
         <img src="#" alt="perfil" class="perfil_c">
         <h2 class="nome_c">Nome ficticio</h2>
         <img src="#" alt="estrelas" class="estrelas_c">
         <p class="avaliacao_c">"Suposta avaliação"</p>
     </div>  
     <div class="bloco_ac">
-        <h1 id="clientes">Nosso clientes falam:</h1>
         <img src="#" alt="perfil" class="perfil_c">
         <h2 class="nome_c">Nome ficticio</h2>
         <img src="#" alt="estrelas" class="estrelas_c">
         <p class="avaliacao_c">"Suposta avaliação"</p>
     </div>  
     <div class="bloco_ac">
-        <h1 id="clientes">Nosso clientes falam:</h1>
         <img src="#" alt="perfil" class="perfil_c">
         <h2 class="nome_c">Nome ficticio</h2>
         <img src="#" alt="estrelas" class="estrelas_c">
         <p class="avaliacao_c">"Suposta avaliação"</p>
     </div>  
 </div>
-
-     <footer></footer>
+<hr>
+<!--Rodapé-->
+<footer id="receber">
+    <!--Email-->
+<div id="email">
+    <img src="#" alt="icone email" id="icone_email">
+    <div id="texto_e">
+        <h2 id="texto_r">Receba</h2>
+        <h2 id="texto_n">Novidades</h2>
+    </div>
+    <div id="emial_n">
+        <input type="text" id="email_i_n">
+        <button type="submit" id="but_enciar_e">Enviar</button>
+    </div>
+</div>
+<!--Suporte-->
+<div id="suporte">
+    <hr>
+    <h2 id="sobre_nos">Sobre nós</h2>
+    <hr>
+    <h2 id="ajuda">Ajuda e Suporte</h2>
+</div>
+</footer>
 </body>
 </html>

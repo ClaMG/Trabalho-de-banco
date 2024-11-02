@@ -1,7 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+/*Cabeçario*/
 
 #cabeça{
     background-image: linear-gradient(to left, rgb(80, 6, 6), black);
@@ -54,7 +57,7 @@ menu{
     width: 250px;
 }
 
-a{
+menu a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: 0.4s;
@@ -85,4 +88,22 @@ menu a:hover{
     display: flex;
    flex-direction: row;
    padding-top: 5px;
+}
+
+/*Corpo 1*/
+
+/*serve*/
+#serve {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    height: 65px;
+}
+
+#link_serve{
+    color: white;
+    text-decoration: none;
+}
+
+#titulo_serve, #link_serve{
+    padding-left: 15px;
 }

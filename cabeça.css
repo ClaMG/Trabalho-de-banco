@@ -129,16 +129,30 @@ menu a:hover{
     width: 350px;
     flex-direction: column;
     border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_des{
+    padding-top: 150px;
 }
 
 .link_des{
     color: rgb(0, 0, 0);
     text-decoration: none;
  }
+
+.parte_baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
 .setas{
-    margin-left: 3px;
-    width: 11px;
-    height: 11px;
+    margin-left: -3px;
+    width: 14px;
+    height: 14px;
 }
 
 /*Mais vendidos*/

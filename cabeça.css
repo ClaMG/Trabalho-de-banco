@@ -92,6 +92,28 @@ menu a:hover{
 
 /*Corpo 1*/
 
+#corpo{
+    background-image: linear-gradient(to left, rgb(191, 16, 16), rgb(5, 5, 5));
+    width: 100%;
+    color: white;
+}
+
+#estrutura{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.butoes{
+    display: flex;
+    height: 30px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /*serve*/
 #serve {
     background-color: rgb(207, 0, 0);

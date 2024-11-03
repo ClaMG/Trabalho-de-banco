@@ -112,8 +112,6 @@ menu a:hover{
     align-items: center;
 }
 
-
-
 /*serve*/
 #serve {
     background-color: rgb(207, 0, 0);
@@ -129,7 +127,7 @@ menu a:hover{
 #titulo_serve, #link_serve{
     padding-left: 15px;
 }
-/*Destaques*/
+/*Tipos*/
 
 #destaques{
     height: 500px;
@@ -137,6 +135,8 @@ menu a:hover{
 
 #titulo_des{
     padding: 20px 0px;
+    display: flex;
+    justify-content: center;
 }
 
 #localizacao_des{
@@ -156,7 +156,8 @@ menu a:hover{
 }
 
 .img_des{
-    padding-top: 150px;
+    width: 300px;
+    height: 300px;
 }
 
 .link_des{

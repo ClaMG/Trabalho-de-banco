@@ -258,7 +258,7 @@ menu a:hover{
     justify-content: space-between;
 }
 
-#emial_n input{
+#email_i_n{
     width: 300px;
     height: 30px;
     border-radius: 10px;
@@ -266,6 +266,11 @@ menu a:hover{
     border-color: white;
     background-color: rgb(231, 50, 50);
     color: white;
+}
+
+#email_i_n::placeholder{
+    color: white;
+    opacity: 0.5;
 }
 
 #emial_n button{

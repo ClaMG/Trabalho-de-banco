@@ -109,6 +109,38 @@ menu a:hover{
 }
 /*Destaques*/
 
+#destaques{
+    height: 500px;
+}
+
+#titulo_des{
+    padding: 20px 0px;
+}
+
+#localizacao_des{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produtos_des{
+    display: flex;
+    background-color: gainsboro;
+    height: 400px;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.link_des{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+.setas{
+    margin-left: 3px;
+    width: 11px;
+    height: 11px;
+}
+
 /*Mais vendidos*/
 
 #m_vendidos{

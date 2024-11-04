@@ -95,7 +95,7 @@ menu a:hover{
 #corpo{
     background-image: linear-gradient(to left, rgb(191, 16, 16), rgb(5, 5, 5));
     width: 100%;
-    height: 400px;
+    height: 500px;
     color: white;
 }
 
@@ -117,20 +117,20 @@ menu a:hover{
 #corpo_cop1{
     display: flex;
     width: 900px;
-    height: 400px;
+    height: 500px;
     align-items: center;
     justify-content: space-between;
 }
 
 #direita{
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 #sobre_p{
-    height: 200px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,18 +139,23 @@ menu a:hover{
 }
 
 #esquerda{
-    height: 200px;
+    height: 350px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
 #valor_s{
-    height: 100px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+#imagem_c{
+    height: 530px;
+    width: 520px;
 }
 
 /*serve*/

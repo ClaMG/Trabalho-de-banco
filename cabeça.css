@@ -34,7 +34,7 @@
     height: 40px;
 }
 
-header{
+#header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -51,19 +51,19 @@ header{
     height: 30px;
 }
 
-menu{
+#menu{
     display: flex ;
     flex-direction: row;
     width: 250px;
 }
 
-menu a{
+.menu_a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: 0.4s;
 }
 
-menu div{
+.menu_div{
     padding: 5px;
     margin-right: 3px;
     background-color: rgba(149, 2, 2, 0.635); 
@@ -71,11 +71,11 @@ menu div{
     transition: 1s;
 }
 
-menu div:hover{
+.menu_div:hover{
     background-color: rgb(223, 46, 46); 
     
 }
-menu a:hover{
+.menu_a:hover{
     color: rgb(46, 0, 0);
 }
 
@@ -393,7 +393,7 @@ menu a:hover{
     opacity: 0.5;
 }
 
-#emial_n button{
+#but_enciar_e{
     width: 90px;
     height: 35px;
     border-radius: 20px;

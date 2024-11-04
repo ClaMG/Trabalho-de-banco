@@ -154,8 +154,13 @@ menu a:hover{
 }
 
 #imagem_c{
-    height: 530px;
-    width: 520px;
+    height: 479px;
+    width: 469px;
+}
+
+#aproveite{
+    height: 70px;
+    width: 128px;
 }
 
 /*serve*/

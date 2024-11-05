@@ -4,6 +4,10 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
 /*Cabeçario*/
 
 #cabeça{
@@ -130,12 +134,14 @@
 }
 
 #sobre_p{
-    height: 260px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 #esquerda{
@@ -161,6 +167,26 @@
 #aproveite{
     height: 70px;
     width: 128px;
+}
+
+#img_v{
+    height: 80px;
+    width: 80px;
+}
+
+.p_corpo{
+    display: flex;
+    align-items: center;
+}
+
+#peso_i{
+    height: 130px;
+    width: 130px;
+}
+
+#img_p{
+    height: 100px;
+    width: 100px;
 }
 
 /*serve*/

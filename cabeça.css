@@ -335,7 +335,7 @@ body::-webkit-scrollbar {
     content: "Comprar";
     font-size: 40px;
     font-weight: bold;
-    padding: 30px 35px;
+    padding: 35px 30px;
     height: 100px;
     width: 200px;
     border-radius: 30px;
@@ -348,12 +348,12 @@ body::-webkit-scrollbar {
 .link_mv{
     color: white;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .link_mv:hover{
     color: transparent;
-    font-size: 33px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /*Avaliações*/

@@ -420,6 +420,12 @@
     padding: 20px;
 }
 
+.tex_su{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .linha{
     height: 300px;
     border-left: 2px solid;

@@ -189,6 +189,11 @@ body::-webkit-scrollbar {
     width: 100px;
 }
 
+#img{
+    height: 90px;
+    width: 90px;
+}
+
 /*serve*/
 #serve {
     background-color: rgb(207, 0, 0);
@@ -326,22 +331,29 @@ body::-webkit-scrollbar {
     border: none;
 }
 
-/*Talves mude*/
-
-.escrito_mv:hover{
-    color: transparent;
-    text-align: center;
-    height: 100px;
-    width: 200px;
-}
-
-.escrito_mv:hover::before{
+.link_mv:hover::before{
     content: "Comprar";
-    padding: 43px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px 35px;
+    height: 100px;
     width: 200px;
     border-radius: 30px;
     color: rgb(68, 0, 0);
-    background-color: rgb(255, 164, 164); 
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 3px 3px 5px 0px rgb(89, 1, 1);
+    border: none;
+}
+
+.link_mv{
+    color: white;
+    text-decoration: none;
+}
+
+.link_mv:hover{
+    color: transparent;
+    font-size: 33px;
+    margin-top: 20px;
 }
 
 /*Avaliações*/

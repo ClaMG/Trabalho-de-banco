@@ -176,9 +176,10 @@ body::-webkit-scrollbar {
     width: 469px;
 }
 
-#aproveite{
-    height: 70px;
-    width: 128px;
+#aproveite img, #aproveite{
+    height: 140px;
+    width: 240px;
+    margin-top: 30px;
 }
 
 #img_v{

@@ -151,11 +151,16 @@ body::-webkit-scrollbar {
     padding-top: 30px;
 }
 
+#img_c1{
+    width: 250px;
+}
+
 #esquerda{
     height: 350px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
 }
 
 #valor_s{

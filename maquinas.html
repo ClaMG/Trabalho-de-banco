@@ -202,7 +202,13 @@
         /*Meio da pg*/
 
         #maqui{
-            height: 500px; /*tamanho da pagina*/
+            height: 750px; /*tamanho da pagina*/
+        }
+
+        #h1_ma{
+            margin: 20px;
+            margin-bottom: 0px;
+            color: rgb(69, 0, 0);
         }
 
         #conteudo{
@@ -212,17 +218,70 @@
             justify-content: space-between;
         }
 
-        .limbo{
+        #um{
             display: flex;
             justify-content: space-around;
         }
 
+        #dois{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
         .conteiner{
-            background-color: rgb(161, 161, 161);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 20px;
+            margin-top: 30px;
+            background-image: radial-gradient(rgb(161, 161, 161), white);
+            height: 300px;
+            width: 250px;
             
         }
 
+        .img_ma{
+            width: 200px;
+            height: 200px;
+            padding-top: 20px;
+        }
 
+        .texto{
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            width: 200px;
+            justify-content: space-between;
+            padding-bottom: 20px;
+        }
+
+        .butoes{ /*não sei se pode*/
+            display: flex;
+            margin-top: 5px;
+        }
+
+        .texto input{
+            width: 40px;
+            height: 25px;
+            margin-right: 5px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: solid 1.5px rgb(56, 0, 0);
+        }
+
+        .texto button{
+            box-shadow: 3px 3px 5px 0px rgb(133, 131, 131);
+            color: white;
+            background-color: rgba(233, 21, 21, 0.776);
+            border: none;
+            border-radius: 5px;
+            padding: 7px;
+        }
+
+        .texto p{
+            font-weight: bolder;
+        }
     </style>
 </head>
 <body>
@@ -252,54 +311,64 @@
 </div>
 
 <div id="maqui">
-        <h1 id="h1">Maquinas</h1>
+        <h1 id="h1_ma">Maquinas</h1>
         <div id="conteudo">
-        <div class="limbo">
+        <div id="um">
             <div class="conteiner">
-                <img src="#" alt="Maquina" class="img_ma">
+                <img src="favicon/Gemini_Generated_Image_jqlw66jqlw66jqlw-removebg-preview.png" alt="Maquina" class="img_ma"><!--link imagem maquina-->
                 <div class="texto">
                     <p>Nome: Esteira</p>
                     <p>Quantidade do estoque: 0</p>
-                    <input type="number">
-                    <button>Adicionar ao Carrinho</button>
+                    <div class="butoes"> <!--Não sei se pode-->
+                        <input type="number">
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
                 </div>
             </div>
             <div class="conteiner">
-                <img src="#" alt="Maquina" class="img_ma">
+                <img src="favicon/Gemini_Generated_Image_jqlw66jqlw66jqlw-removebg-preview.png" alt="Maquina" class="img_ma"><!--link imagem maquina-->
                 <div class="texto">
                     <p>Nome: Esteira</p>
                     <p>Quantidade do estoque: 0</p>
-                    <input type="number">
-                    <button>Adicionar ao Carrinho</button>
+                    <div class="butoes"> <!--Não sei se pode-->
+                        <input type="number">
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
                 </div>
             </div>
             <div class="conteiner">
-                <img src="#" alt="Maquina" class="img_ma">
+                <img src="favicon/Gemini_Generated_Image_jqlw66jqlw66jqlw-removebg-preview.png" alt="Maquina" class="img_ma"><!--link imagem maquina-->
                 <div class="texto">
                     <p>Nome: Esteira</p>
                     <p>Quantidade do estoque: 0</p>
-                    <input type="number">
-                    <button>Adicionar ao Carrinho</button>
+                    <div class="butoes"> <!--Não sei se pode-->
+                        <input type="number">
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="limbo">
+        <div id="dois">
             <div class="conteiner">
-                <img src="#" alt="Maquina" class="img_ma">
+                <img src="favicon/Gemini_Generated_Image_jqlw66jqlw66jqlw-removebg-preview.png" alt="Maquina" class="img_ma"><!--link imagem maquina-->
                 <div class="texto">
                     <p>Nome: Esteira</p>
                     <p>Quantidade do estoque: 0</p>
-                    <input type="number">
-                    <button>Adicionar ao Carrinho</button>
+                    <div class="butoes"> <!--Não sei se pode-->
+                        <input type="number">
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
                 </div>
             </div>
             <div class="conteiner">
-                <img src="#" alt="Maquina" class="img_ma">
+                <img src="favicon/Gemini_Generated_Image_jqlw66jqlw66jqlw-removebg-preview.png" alt="Maquina" class="img_ma"><!--link imagem maquina-->
                 <div class="texto">
                     <p>Nome: Esteira</p>
                     <p>Quantidade do estoque: 0</p>
-                    <input type="number">
-                    <button>Adicionar ao Carrinho</button>
+                    <div class="butoes"> <!--Não sei se pode-->
+                        <input type="number">
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
                 </div>
             </div>
         </div>

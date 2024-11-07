@@ -494,13 +494,36 @@ body::-webkit-scrollbar {
     margin-left: 14px;
 }
 
-.texto_sa a{
+.texto_sa a, #redes_sa a{
     color: white;
     text-decoration: none;
     margin-left: 30px;
     
 }
 
+.texto_sa a:hover{
+    color: rgb(191, 191, 191);
+}
+
 .texto_sa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+#extra{
+    height: 250px;
+}
+
+#redes_sa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#redes{
+    display: flex;
     margin-top: 10px;
 }

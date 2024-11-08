@@ -86,6 +86,13 @@
         .texto{
             color: white;
             font-weight: bold;
+            text-align: center;
+        }
+
+        input::placeholder{
+            color: rgba(255, 255, 255, 0.721);
+            font-size: 15px;
+            padding-left: 10px;
         }
 
         /*Cabeçario*/
@@ -204,10 +211,10 @@
         <h1 id="h1">Pagamento</h1>
         <div id="meio">
             <div id="part1">
-                <p class="texto">Nome no Cartão:<input type="text" class="input"></p>
-                <p class="texto">Número do Cartão:<input type="text" class="input"></p>
-                <p class="texto">Validade(MM/AA):<input type="text" class="input"></p>
-                <p class="texto">CCV:<input type="text" class="input"></p>
+                <p class="texto">Nome no Cartão:<input type="text" class="input" placeholder="Nome no Cartão"></p>
+                <p class="texto">Número do Cartão:<input type="text" class="input" placeholder="Número do Cartão"></p>
+                <p class="texto">Validade(MM/AA):<input type="text" class="input" placeholder="MM/AA"></p>
+                <p class="texto">CCV:<input type="text" class="input" placeholder="CCV"></p>
             </div>
         </div>
         <button id="butao">Finalizar Pagamento</button>

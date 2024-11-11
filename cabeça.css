@@ -20,6 +20,12 @@ body::-webkit-scrollbar {
     margin-left: 0%;
 }
 
+#img_l{
+    width: 50px;
+    height: 50px;
+    margin-left:-51px;
+}
+
 #lupa{
     width: 30px;
     height: 30px;
@@ -544,3 +550,4 @@ body::-webkit-scrollbar {
 .img_fim{
     width: 65px;
 }
+

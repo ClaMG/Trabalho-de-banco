@@ -540,3 +540,7 @@ body::-webkit-scrollbar {
     display: flex;
     margin-top: 10px;
 }
+
+.img_fim{
+    width: 65px;
+}
